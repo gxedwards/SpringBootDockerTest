@@ -17,11 +17,13 @@ The following guides illustrate how to use some features concretely:
 
 # How to build the docker image
 
-sudo docker build -t docker-demo .
+On linux, use sudo if needed depending on how you installed docker
+
+docker build -t docker-demo .
 
 
 # How to run
 
-Use sudo if needed.
+On linux, use sudo if needed depending on how you installed docker
 
-sudo docker run -p 8080:8080 -t docker-demo 
+docker run -p 8080:8080 -t docker-demo 
